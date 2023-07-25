@@ -1,5 +1,5 @@
-# vivia-renderer-marked
-Add marked as a renderer to Vivia
+# vivia-marked
+Add marked to Vivia
 
 ## Options
 Options are put directly to [marked](https://marked.js.org/using_advanced#options).
@@ -15,4 +15,4 @@ plugins:
       extendedTables: true
       highlight: true
 ```
-If there is no the extension you need, you can create an issue or find another Vivia renderer
+If there is no the extension you need, you can create an issue or find another plugin

@@ -1,13 +1,16 @@
 {
-  "name": "vivia-renderer-marked",
+  "name": "vivia-marked",
   "version": "0.0.1",
   "description": "vivia renderer marked",
   "author": "Saurlax <saurlax@qq.com>",
   "keywords": [
     "vivia",
-    "renderer",
     "marked"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saurlax/vivia-marked.git"
+  },
   "license": "MIT",
   "dependencies": {
     "highlight.js": "^11.8.0",
