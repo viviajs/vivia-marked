@@ -43,6 +43,6 @@ module.exports = config => {
 
   return ctx => {
     ctx.type = 'html'
-    ctx.content = marked.parse(ctx.content)
+    ctx.content = marked.parse(ctx.content.toString())
   }
 }
