@@ -47,7 +47,7 @@ module.exports = config => {
 
   return context => {
     context.path = context.path.replace(/\.[^\.]+$/, '.html')
-    context.head += head
+    context.head = (context.head ?? '') + head
     context.content = marked.parse(context.content.toString())
   }
 }

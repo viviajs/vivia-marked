@@ -1,7 +1,7 @@
 {
   "name": "vivia-marked",
-  "version": "0.0.3",
-  "description": "vivia renderer marked",
+  "version": "0.0.4",
+  "description": "vivia marked",
   "author": "Saurlax <saurlax@qq.com>",
   "keywords": [
     "vivia",
