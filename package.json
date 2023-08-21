@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/saurlax/vivia-marked.git"
   },
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "dependencies": {
     "highlight.js": "^11.8.0",
