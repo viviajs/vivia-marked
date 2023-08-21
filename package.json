@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "highlight.js": "^11.8.0",
-    "marked": "^5.1.0",
+    "marked": "^7.0.4",
     "marked-admonition-extension": "^0.0.4",
     "marked-bidi": "^1.0.3",
     "marked-extended-tables": "^1.0.6",
