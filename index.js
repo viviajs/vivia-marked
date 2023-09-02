@@ -23,11 +23,10 @@ module.exports = config => {
   }
 
   marked.use(config)
-  // since marked@5.0.0, 'mangle' and 'headerIds' are enabled defaultly but need extensions
-  if (config.mangle != false) {
+  if (config.mangle) {
     marked.use(require('marked-mangle').mangle())
   }
-  if (config.headerIds != false) {
+  if (config.headerIds) {
     marked.use(require('marked-gfm-heading-id').gfmHeadingId(config))
   }
   if (config.admonition) {
@@ -36,9 +35,10 @@ module.exports = config => {
   if (config.bidi) {
     marked.use(require('marked-bidi')())
   }
-  if (config.extendedTables) {
-    marked.use(require('marked-extended-tables')())
-  }
+  // TODO: waiting for update to support marked@7
+  // if (config.extendedTables) {
+  //   marked.use(require('marked-extended-tables')())
+  // }
   if (config.katex) {
     marked.use(require('marked-katex-extension')({ throwOnError: false }))
     head +=
