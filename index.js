@@ -15,9 +15,6 @@ module.exports = config => {
       })
     )
 
-    // since marked@5.0.0, highlight was deprecated defaultly
-    // delete 'config.highlight' to prevent confounding
-    delete config.highlight
     head +=
       '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">'
   }
@@ -35,7 +32,7 @@ module.exports = config => {
   if (config.bidi) {
     marked.use(require('marked-bidi')())
   }
-  // TODO: waiting for update to support marked@7
+  // TODO: waiting for update to support marked@8
   // if (config.extendedTables) {
   //   marked.use(require('marked-extended-tables')())
   // }
