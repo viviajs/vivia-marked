@@ -22,7 +22,7 @@
     "marked-bidi": "^1.0.6",
     "marked-gfm-heading-id": "^3.0.8",
     "marked-highlight": "^2.0.6",
-    "marked-katex-extension": "^3.0.6",
+    "marked-katex-extension": "^4.0.0",
     "marked-mangle": "^1.1.4"
   }
 }
