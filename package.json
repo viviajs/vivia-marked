@@ -1,6 +1,6 @@
 {
   "name": "vivia-marked",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "vivia marked",
   "author": "Saurlax",
   "keywords": [
@@ -16,13 +16,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "highlight.js": "^11.8.0",
     "marked": "^9.0.0",
-    "marked-admonition-extension": "^0.0.4",
-    "marked-bidi": "^1.0.6",
-    "marked-gfm-heading-id": "^3.0.8",
-    "marked-highlight": "^2.0.6",
-    "marked-katex-extension": "^3.0.6",
-    "marked-mangle": "^1.1.4"
+    "vivia": "^0.1.5"
   }
 }
